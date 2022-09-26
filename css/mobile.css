@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  .nav-img {
+    display: none;
+  }
+  .nav-avatar {
+    display: none;
+  }
+
+  #nav-bar {
+    height: 310px;
+    text-align: left;
+    background-color: #fff;
+  }
+
+  .nav-container {
+    display: block;
+  }
+
+  .nav-items {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 3px 0;
+  }
+  .nav-avatar.nav-items {
+    display: none;
+  }
+  .nav-items--right-border {
+    border: none;
+  }
+  .nav-items--left-border {
+    border: none;
+  }
+
+  .nav-items a {
+    font-size: 24px;
+  }
+  .container {
+    width: 100vw;
+    padding: 0;
+  }
+  .container.container-grid {
+    margin-top: 10px;
+    display: block;
+    height: auto;
+  }
+  #target {
+    padding-left: 48px;
+  }
+  #target p {
+    font-size: 18px;
+  }
+  #personal-info {
+    font-size: 18px;
+    padding-left: 50px;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+  #about {
+    height: fit-content;
+  }
+
+  .job-info-grid {
+    display: block;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .line1 {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: none;
+    /* 1px solid #f2701b */
+  }
+
+  .block-border-mobile {
+    border-bottom: 1px solid #f2701b;
+  }
+  .project-grid {
+    display: block;
+  }
+  .footer-icon {
+    font-size: 25px;
+  }
+}

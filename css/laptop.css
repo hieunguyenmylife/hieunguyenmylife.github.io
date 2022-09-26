@@ -1,0 +1,414 @@
+/* Common */
+/* COLOR
+GRAY 1: #868e96
+GRAY 2: #f7f7f7
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: #343a40;
+  font-size: 14px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+/* Section1: Banner */
+
+.banner-img {
+  height: 340px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(../images/banner.jpg);
+  background-size: cover;
+
+  position: relative;
+}
+.text-banner {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Section 2: Navbar */
+#nav-bar {
+  height: 80px;
+  font-size: 14px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav-items i {
+  font-size: 14px;
+  padding-right: 5px;
+  color: #199cdb;
+  font-size: 20px;
+}
+.nav-items {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 54px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-items--right-border {
+  border-right: 1px solid #dededfea;
+}
+
+.nav-items--left-border {
+  border-left: 1px solid #dededfea;
+}
+.nav-img {
+  width: 150px;
+  height: 150px;
+  border: 10px solid rgb(254, 254, 254);
+  border-radius: 50%;
+  background-image: url(../images/Nguyen\ Ngoc\ Hieu_pic.JPG);
+  background-size: cover;
+  position: absolute;
+}
+
+.nav-avatar {
+  position: relative;
+}
+
+/* Section 3: About */
+.container.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 352px;
+}
+
+.info li {
+  list-style-type: none;
+}
+
+#target {
+  padding-right: 40px;
+  background-color: #f5f5f5;
+  padding-left: 30px;
+}
+#personal-info {
+  padding-left: 60px;
+  background-color: #f0f0f0;
+}
+#target,
+#personal-info {
+  padding-top: 40px;
+  line-height: 2;
+}
+
+.icon-social {
+  font-size: 18px;
+  color: #199cdb;
+}
+
+#target h1,
+#personal-info h1 {
+  font-size: 24px;
+}
+
+/* Section 4: Job info */
+.job-info-grid {
+  width: 1000px;
+  margin: 30px 100px 0 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 23px;
+}
+
+.job-info-grid-items {
+  display: grid;
+  grid-template-rows: 100px 3fr;
+  grid-template-columns: 3fr 1fr;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #868e96;
+}
+.info-content {
+  grid-column: 1/-1;
+}
+
+.info-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+}
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding-right: 10px;
+}
+
+.info-content li {
+  line-height: 1.5;
+  padding-top: 10px;
+  list-style: none;
+  padding-bottom: 20px;
+}
+.info-time {
+  display: inline-block;
+  padding: 8px 0;
+}
+.text-effect {
+  display: inline-block;
+  background-color: #199cdb;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 8px;
+}
+
+.skill-container {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.skill-header {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.ilus-icon {
+  display: inline-block;
+  padding-left: 10px;
+  width: 80px;
+  height: 6px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.ilus-icon--blue {
+  background-color: #199cdb;
+  border: 1px solid #199cdb;
+}
+
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding-top: 15px;
+}
+
+.hobby-items i {
+  font-size: 24px;
+  color: #199cdb;
+}
+.hobby-items {
+  text-align: center;
+  justify-self: center;
+}
+.hobby-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #199cdb;
+  border-radius: 50%;
+}
+
+.hobby-text {
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+/* Section 5: Certificates */
+.line1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2701b;
+}
+.line2 {
+  padding-top: 10px;
+}
+.block {
+  display: flex;
+}
+
+.block-text {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.img-pic {
+  width: 190px;
+}
+
+.certificate-container h1 {
+  padding-bottom: 24px;
+  font-size: 24px;
+}
+
+.certificate-container {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 40px 30px 40px 100px;
+}
+
+/* Section 6: Project */
+.project-grid {
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  font-weight: 500;
+}
+
+.project-img img {
+  width: 100%;
+}
+.project-title {
+  text-align: center;
+  padding: 10px 0;
+}
+.project-time {
+  background-color: #199cdb;
+  border-radius: 12px;
+  color: #fff;
+  padding: 2px 4px;
+}
+.project1-line3 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+.project-company,
+.project-position {
+  display: flex;
+}
+
+.project-line4 {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 90px 90px 1fr;
+  padding-top: 5px;
+}
+
+.line4-right {
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  border-bottom: 1px solid #868e96;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.line4-left {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #868e96;
+}
+.project1 {
+  /* border: 1px solid #868e96; */
+  border-bottom: none;
+  margin-bottom: 15px;
+}
+.project1 > div {
+  border-left: 1px solid #868e96;
+  border-right: 1px solid #868e96;
+}
+.project-img,
+.project-title,
+.project1-line3 {
+  border-bottom: 1px solid #868e96;
+}
+
+.project-section-title {
+  font-size: 24px;
+  margin-left: 20px;
+}
+#project {
+  margin-top: 30px;
+}
+.wrap {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 66%;
+}
+
+/* Section 7: Footer */
+.footer-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-top: 30px;
+}
+.footer-container ul {
+  width: 100%;
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+.footer-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #343a40;
+}
+.footer-icon,
+.footer-text {
+  display: inline-block;
+}
+.footer-icon {
+  font-size: 50px;
+  color: #199cdb;
+}
+.footer-text {
+  font-size: 18px;
+}
+
+/* Advance */
+.btn.btn-primary a {
+  color: #f5f5f5;
+  margin: auto;
+  text-decoration: none;
+}
+
+.btn-primary {
+  margin-left: 50%;
+  margin-top: 2%;
+  transform: translate(-50%, 0);
+}
